@@ -1,5 +1,5 @@
 function ExponentialPopGrowth() {
-    let InitialPopulation = parseFloat(prompt('Enter the initial populaiton:'));
+    let InitialPopulation = parseFloat(prompt('Enter the initial population:'));
     let RateOfGrowth = parseFloat(prompt('Enter the rate of growth:'));
     let TimeInHours = parseFloat(prompt('Enter the time:'));
 
