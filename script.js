@@ -8,7 +8,7 @@ function ExponentialPopGrowth() {
     let location = prompt('Enter the location:');
     let MonsterName = prompt('Enter the name of the Monster:');
 
-    let NameOfMonsterAndLocation = location.concat("", MonsterName).toUpperCase();
+    let NameOfMonsterAndLocation = location.concat(" ", MonsterName).toUpperCase();
 
     document.getElementById("result").innerHTML="After " + TimeInHours + " Hour/s, the population of " + NameOfMonsterAndLocation + " has risen to " + FinalPopulation;
 
